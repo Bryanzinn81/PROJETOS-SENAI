@@ -1,0 +1,97 @@
+/*Fonte Padrão texto*/
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300&display=swap');
+/*Fonte Padrão do Título*/
+@import url('https://fonts.googleapis.com/css2?family=Bangers&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+img{
+    max-width: 100%;
+}
+body{
+    background-color: #a5a0a0;
+    background-image: url("https://www.transparenttextures.com/patterns/asfalt-light.png");
+    font-family: 'Roboto Condensed', sans-serif;
+}
+header{
+    font-family: 'Bangers', cursive;
+    background-color: #a5a0a0;
+    text-align: center;
+    font-size: 2.5em;
+    color: #ffffff;
+    padding: 1.0em;
+    letter-spacing: 0.095em;
+    border-bottom: 0.5px solid #ffffff;
+    
+}
+#info{
+    max-width: 80%;
+    margin: 1em auto;
+    background-color: #cccccc;
+    padding: 1.5em;
+}
+#imagem{
+    text-align: center;
+    
+}
+#imagem img{
+    border: 1px solid #ffffff;
+}
+#info{
+    font-size: 1.15em;
+    line-height: 1.25em;
+    text-indent: 1em;
+}
+#info h2{
+    text-align: center;
+    text-indent: 0em;
+    font-family: 'Bangers', cursive;
+    letter-spacing: 0.095em;
+    margin-bottom: 0.50em;
+}
+#Links{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+}
+#Links a{
+  flex: 1;
+ text-align: center;
+ text-decoration: none;
+ font-size: 1.15em;
+ color: crimson;
+}
+#Links a:hover{
+    font-weight: bold;
+}
+footer{
+    background-color: #a5a0a0;
+    text-align: center;
+    margin-bottom: 1em;
+}
+@media (max-width:500px){
+    #Links{
+        flex-direction: column;
+    }
+    #Links a {
+        margin-bottom: 0.50em;
+    }
+    header{
+         padding: 0.5em;
+         font-size: 1.20em;
+    }
+    #info{
+        max-width: 95%;
+        margin: 0.5em auto;
+        padding: 0.5em;
+    }
+    img{
+        max-width: 90%;
+    }
+    #imagem{
+    text-align: left;
+    }
+}
