@@ -1,0 +1,151 @@
+@import url('https://fonts.googleapis.com/css2?family=Archivo+Narrow:wght@500&display=swap');
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+img{
+    max-width: 100%;
+}
+a{
+    text-decoration: none;
+}
+body{
+    background-color: #edf3f1;
+background-image: url("https://www.transparenttextures.com/patterns/absurdity.png");
+font-family: 'Archivo Narrow', sans-serif;
+}
+header{
+    min-width: 100%;
+    background-color: #F5A46C;
+    padding: 1.5em 0em;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    }
+    #logo{
+        flex: 1;
+        text-align: center;
+    }
+    #menuTopo{
+        flex: 1;
+    }
+    #menuTopo a{
+        color: #264C3D;
+        font-size: 1.5em;
+        padding: 0em 0.75em;
+        transition: 1s;
+    }
+    #menuTopo a:hover{
+        color:#EDF3F1;
+    }
+    #banner{
+        max-width: 80%;
+        margin: 1.5em auto;
+        background: url(imagens/banner.png) #63B8A7;
+        background-repeat: no-repeat;
+        padding: 3em;
+        border-radius: 1em;
+    }
+    #textoBanner{
+        color: #264C3D
+    }
+    #textoBanner h2{
+        font-size: 3em;
+        margin-bottom: 0.5em;
+    }
+    #textoBanner p{
+        font-size: 1.75em;
+        margin-bottom: 1em;
+    }
+    #botaoBanner{
+        background-color: #F5A46C;
+        border-radius: 0.5em;
+        padding: 0.5em 1em;
+        max-width: 220px;
+    }
+    #botaoBanner a{
+        font-size: 2em;
+        font-weight: bold;
+        color: #264C3D;
+        letter-spacing: 0.1em;
+    }
+    #botaoBanner:hover{
+        box-shadow: 3px 3px 3px #18333a;
+    }
+    #plataformas{
+        border-bottom: 2px solid #F5A46C;
+        font-size: 2em;
+        margin: 1em 0em;
+        text-align: center;
+        color: #264C3D;
+        letter-spacing: 0.1em;
+    }
+    #itens{
+        max-width: 80%;
+        margin: 2em auto;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        align-items: center;
+    }
+    .item{
+        background-color: #63B8A7;
+        border-radius: 0.25em;
+        font-size: 1.75em;
+        padding: 0.25em;
+        text-align: center;
+        margin: 1em 1.5em;
+        color: #264C3D;
+        cursor: pointer;
+        min-width: 200px;
+    }
+    footer{
+        padding: 1em;
+        min-width: 100%;
+        background-color: #264C3D;
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: space-between;
+    }
+    #email{
+        color: #EDF3F1;
+        font-size: 1.25em;
+    }
+    /* Underline From Center */
+.item {
+  display: inline-block;
+  vertical-align: middle;
+  -webkit-transform: perspective(1px) translateZ(0);
+  transform: perspective(1px) translateZ(0);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+  position: relative;
+  overflow: hidden;
+}
+.item:before {
+  content: "";
+  position: absolute;
+  z-index: -1;
+  left: 51%;
+  right: 51%;
+  bottom: 0;
+  background: #F5A46C;
+  height: 4px;
+  -webkit-transition-property: left, right;
+  transition-property: left, right;
+  -webkit-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+  -webkit-transition-timing-function: ease-out;
+  transition-timing-function: ease-out;
+}
+.item:hover:before, .item:focus:before, .item:active:before {
+  left: 0;
+  right: 0;
+}   
+    @media (max-width:500px){
+        header{
+            flex-direction: column;
+        }
+    }
