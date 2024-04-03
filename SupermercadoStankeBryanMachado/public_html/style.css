@@ -1,0 +1,323 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&display=swap');
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+h2{
+    font-family: 'Bree Serif', serif;
+}
+h1{
+    font-family: 'Bree Serif', serif;
+}
+body{
+    font-family: 'Roboto Condensed', sans-serif;
+    background-color: #F0F0F0;
+}
+img{
+    max-width: 100%;
+}
+a{
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 2em;
+}
+#menuTopo a{
+    margin-right: 5em;
+}
+header{
+    background-color: #1C336C;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    border-bottom: 0.25em solid #f0660d;
+}
+#logo{
+    text-align: center;
+    background-color: #ffffff;
+    border-radius: 20em;
+    margin: 1.5em;
+    margin-left: 5em;
+    width: 9em;
+}
+nav{
+    margin: 2em;
+    padding-top: 3em;
+}
+#idbanner{
+    text-align: center;
+    margin-top: 4em;
+}
+#idbanner img{
+    border: 0.25em solid #f0660d;
+}
+#destaques h2{
+    margin: 2em 0em;
+    padding-bottom: 0.25em;
+    text-align: center;
+    border-bottom: 0.15em solid #f0660d;
+    font-size: 1.75em;
+}
+#conteudo{
+    text-align: center;
+    background-color: #1C336C;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin: 0em 35em;
+    padding: 1.5em;
+    border-radius: 2em;
+}
+#destaques{
+    padding-bottom: 3em;
+}
+#conteudo p{
+    padding-top: 0.35em;
+    font-size: 1.25em;
+    color: #ffffff;
+}
+#conteudo img{
+    border-radius: 2em;
+}
+footer{
+    border-top:  0.15em solid #f0660d;
+    background-color: #1C336C;
+    color: #ffffff;
+    font-size: 1.25em;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+#infos{
+    padding: 2em;
+    line-height: 1.45em;
+}
+#face{
+    padding-top: 3em;
+    padding-left: 2em;
+    margin-right: 5em;
+}
+/*SOBRE.HTML*/
+#donos{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding-left: 2em;
+    margin-left: 5em;
+}
+#foto img{
+    border-radius: 2em;
+    border: 0.25em solid #1C336C;
+}
+#nos{
+    flex: 1;
+    text-align: center;
+}
+#nos h2{
+    padding-top: 2em;
+}
+#texto{
+    flex: 1;
+    font-size: 1.75em;
+    margin-left: 1em;
+    margin-top: 2.5em;
+    margin-right: 10em;
+}
+#mercado{
+    text-align: center;
+    padding-bottom: 3em;
+}
+#mercado h2{
+    border-bottom: 0.15em solid #f0660d;
+    margin-bottom: 3em;
+    padding-top: 3em;
+    font-size: 1.8em;
+}
+#fotomercado img{
+    border-radius: 2em;
+    border: 0.25em solid #f0660d;
+}
+/*Produtos*/
+.prod{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    font-size: 1.3em;
+    margin-left: 2em;
+}
+.img{
+    border-radius: 3em;
+    border: 0.25em solid #f0660d;
+
+}
+#produtos h1{
+    text-align: center;
+    padding: 1em;
+    font-size: 2.75em;
+
+}
+.prodimg{
+    flex:1;
+    margin: 2em;
+}
+.prodinfo{
+    margin-left: 4em;
+    flex: 1;
+    margin: 2em;
+    margin-right: 15em;
+    font-size: 1.35em;
+    margin-top: 3em;
+    line-height: 2.50em;
+}
+
+/*CONTATO*/
+#formulario h1{
+    text-align: center;
+    padding: 1.70em;
+    font-size: 2em;
+}
+#formulario label , button{
+    font-family: 'Bree Serif', serif;
+    font-size: 1.5em;
+}
+form{
+    max-width: 60%;
+    margin: 1em auto;
+}
+.campo{
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 0.5em;
+}
+.campo label{
+    font-size: 1.25em;
+    flex: 1;
+}
+.caixa{
+    padding: 0.2em;
+    font-size: 1.25em;
+    border: 0.15em solid #1C336C;
+    flex: 2;
+    background-color: #F0F0F0;
+    border-radius: 3em;
+    line-height: 1.50em;
+}
+.botao{
+    border:0.15em solid #f0660d ;
+    border-radius: 3em;
+    font-size: 1.25em;
+    padding: 0.25em 0.5em;
+    background-color: #F0F0F0;
+}
+#msagF{
+    border-radius: 2em;
+    resize: none;
+}
+#botao{
+    text-align: center;
+}
+#botao button{
+    font-size: 1.50em;
+    padding: 0.25em 11.5em;
+    margin-left: 12.8em;
+}
+form{
+    margin-bottom: 6em;
+}
+@media (max-width: 500px){
+    header{
+        justify-content: center;
+        text-align: center;
+        margin-right: 0em;
+        padding-right: 0em;
+    }
+    #destaques h2 {
+    margin: 1em 0em;
+    padding-bottom: 0.25em;
+    text-align: center;
+    border-bottom: 0.15em solid #f0660d;
+    font-size: 1.75em;
+}
+#logo {
+    /* text-align: center; */
+    /* background-color: #ffffff; */
+    /* border-radius: 20em; */
+    margin: 1.5em;
+    /* margin-left: 5em; */
+    /* width: 9em; */
+}
+    #idbanner{
+        margin-top: 2em;
+    }
+    #menuTopo a{
+        margin-right: 0em;
+    }
+    #foto{
+        margin-left: 0em;
+    }
+    #menuTopo a{
+        margin-right: 1em;
+    }
+    #produtos h1 {
+    /* text-align: center; */
+    /* padding: 1em; */
+    font-size: 2em;
+}
+    a{
+        margin-right: 0em;
+        font-size: 1.5em;
+    }
+    #destaques{
+        margin: 0em 0em;
+        ;
+    }
+    #conteudo{
+        margin: 0em auto;
+    }
+    #nos h2 {
+    padding-top: 1em;
+    padding-bottom: 1em;
+}
+#donos {
+    justify-content: center;
+    margin: 1em auto;
+    padding-left: 0em
+}
+#texto {
+    flex: 1;
+    font-size: 1.75em;
+    margin-left: 0em;
+    margin-top: 2.5em;
+     margin-right:0em;
+}
+.prod{
+    flex-direction: column;
+}
+.prod {
+    /* display: flex; */
+    /* flex-wrap: wrap; */
+    /* justify-content: center; */
+    font-size: 1em;
+    margin-left: 0em;
+}
+.prodinfo {
+    margin-left: 0em;
+    margin: 0em;
+    margin-right: 0em;
+    font-size: 1.40em;
+    margin-top: 1em;
+    text-align: center;
+}
+#frios{
+    margin-bottom: 1em;
+}
+#botao button {
+    font-size: 1.50em;
+    padding: 0.2em 0.2em;
+    margin-left: 0em;
+}
+.campo{
+    flex-direction: column;
+}
+}

@@ -1,0 +1,182 @@
+/*  PALETA DE CORES
+AZUL-ESCURO:06283D
+AZUL2 : 256D85
+AZUL1 : 47B5FF
+AZUL-FRACO: DFF6FF
+*/
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Patua+One&display=swap');
+h2{
+    font-family: 'Patua One', cursive;
+    letter-spacing: 0.15em;
+}
+#onepage{
+    text-align: center;
+}
+#onepage img{
+    border-radius: 12%;
+    padding-top: 1.3em;
+}
+p{
+    font-family: 'Inconsolata', monospace;
+    font-size: 1.25em;
+}
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+img{
+    max-width: 100%;
+}
+a{
+    text-decoration: none;
+    font-family: 'Inconsolata', monospace;
+}
+header{
+    background-color: #06283D;
+    color: #DFF6FF;
+    display: flex;
+    flex-wrap: wrap;
+    flex:  1;
+    justify-content: space-between;
+}
+header a{
+    color: #DFF6FF;
+    flex: 1;
+    padding-right: 3.5em;
+}
+header nav {
+    padding-top: 1.25em;
+    font-size: 1.25em;
+}
+header h1{
+    padding: 0.50em;
+}
+#economizando{
+    padding-left: 1em;
+    padding-right: 2em;
+    color: black;
+    padding-top: 2.5em;
+    padding-bottom: 2.5em;
+}
+body{
+    color: #DFF6FF;
+}
+#economizando h2{
+    text-align: center;
+    padding: 1em;
+}
+#aguadiaria{
+    background-color: #004F87;
+    padding-left: 1em;
+    padding-right: 2em;
+    padding-top: 2.5em;
+    padding-bottom: 2.5em;
+}
+#aguadiaria h2{
+    text-align: center;
+    padding: 1em;
+}
+#poluicao{
+    color: black;
+    padding-left: 1em;
+    padding-right: 2em;
+    padding-top: 2.5em;
+    padding-bottom: 2.5em;
+}
+#poluicao h2{
+    text-align: center;
+    padding: 1em;
+}
+#rios{
+    background-color: #004F87;
+    padding-left: 1em;
+    padding-right: 2em;
+    padding-top: 2.5em;
+    padding-bottom: 2.5em;
+}
+#rios h2{
+    text-align: center;
+    padding: 1em;
+}
+#mares{
+    color: black;
+    padding-left: 1em;
+    padding-right: 2em;
+    padding-top: 2.5em;
+    padding-bottom: 2.5em;
+}
+#mares h2{
+    text-align: center;
+    padding: 1em;
+}
+#escassez{
+    background-color: #004F87;
+    padding-left: 1em;
+    padding-right: 2em;
+    padding-top: 2.5em;
+    padding-bottom: 2.5em;
+}
+#escassez h2{
+    text-align: center;
+    padding: 1em;
+}
+footer{
+    background-color: #06283D;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 2em;
+    text-align: center;
+}
+footer img{
+    max-width: 30%;
+}
+
+.infos{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+#banner img{
+    max-width: 80%;
+    border-radius: 12%;
+}
+#banner{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 1em;
+    background-color: #004F87;
+    padding-top: 2em;
+    padding-bottom: 2em;
+}
+#logo{
+    max-width: 100%;
+}
+#onepage img{
+    flex-direction: column;
+    max-width: 70%;
+}
+#email{
+    line-height: 3em;
+}
+#redes{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+@media (max-width:500px){
+    footer{
+        justify-content: center;
+       text-align: center;
+    }
+    header{
+        justify-content: center;
+    }
+    #menuTopo{
+        padding-left: 0.15em;
+    }
+}
